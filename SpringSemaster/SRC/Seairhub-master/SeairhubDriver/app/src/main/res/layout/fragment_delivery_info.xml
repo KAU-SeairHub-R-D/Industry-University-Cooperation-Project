@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".src.main.list.deliveryinfo.DeliveryInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_round_line_base">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="NO."
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="1235485584"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="배송일"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="22/05/04"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="화주정보"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/owner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="화주1"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="출발시간"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/departure"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="22/04/29\n13:11:15"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="도착시간"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/arrival"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="22/04/30\n15:50:25"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="배송상태"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="상차 대기"
+                        android:textSize="28sp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_departure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="배송 출발"
+                android:textSize="26sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/button_delay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="배송 지연 알림"
+                android:textSize="26sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/button_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="사진 전송"
+                android:textSize="26sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/button_arrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="배송 완료"
+                android:textSize="26sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

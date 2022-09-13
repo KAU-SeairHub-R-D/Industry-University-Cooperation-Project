@@ -1,0 +1,56 @@
+#layout #left_content {
+  float: left;
+  width: 300px;
+}
+
+#layout #left_content #ship_info {
+  border-radius: 10px;
+  clear: both;
+  border: 2px solid gray;
+  margin: 10px;
+}
+
+#layout #left_content #ship_info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 30px;
+}
+
+#layout #left_content #ship_info #bl_ {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#layout #left_content #driver_info {
+  border-radius: 10px;
+  clear: both;
+  border: 2px solid gray;
+  margin: 10px;
+}
+
+#layout #left_content #driver_info div {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 30px;
+}
+
+#layout #map_div {
+  float: left;
+  margin-left: 3%;
+}
+
+#layout #right_content {
+  float: left;
+  margin-left: 3%;
+}
+
+#layout #right_content div {
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+*[type=button] {
+    -webkit-appearance:none;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="search"], 
+input[type="image"], 
+input[type="tel"], 
+button, textarea{ -webkit-border-radius: 0; -webkit-appearance:none;}

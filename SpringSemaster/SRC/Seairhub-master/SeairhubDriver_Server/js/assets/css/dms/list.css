@@ -1,0 +1,133 @@
+#dms_delivery_bid_list .search-wrapper { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px } 
+.pagination { justify-content: center;}
+.page-link { color: #000; }
+.dis-btn {background: #ececec!important;}
+.orange-btn {background: #FF7753!important; color: #fff !important; border:0!important}
+
+#dms_delivery_bid_list .search-wrapper .btn-search { width:100%; display:flex; align-items:center; } 
+#dms_delivery_bid_list .search-wrapper .btn-search .search-months { width:100%; display:flex; margin-right:1%; } 
+#dms_delivery_bid_list .search-wrapper .btn-search button { border:1px solid #cccccc; border-right:0; background-color:#FFF; font-size:10pt; width:100%; height:40px; box-sizing:border-box; font-weight:300; } 
+#dms_delivery_bid_list .search-wrapper .btn-search button:last-child { border-right: 1px solid #cccccc; } 
+#dms_delivery_bid_list .search-wrapper .btn-search .search-before-months { width:100%; display:flex; } 
+
+#dms_delivery_bid_list .search-wrapper .datepicker-search { margin-left:2%; font-size:1.6em; display:flex; align-items:center; justify-content:flex-end; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .input-select { font-size:11pt; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search select { width:80px; height:40px; margin-left:1%; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .search-btn { border:0; background:#ff7753; color:#FFF; font-size: 10pt; width: 60px; height: 40px; box-sizing: border-box; font-weight: 300; margin-left:1%; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .input-select { display:flex; align-items:center; justify-content:space-between; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .input-select .date-wrap { position:relative; display:flex; align-items:center; justify-content:space-between; border:1px solid #c7c7c7; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .input-select .date-wrap:first-child { border-right:0; } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .input-select .date-wrap input { border:0 } 
+#dms_delivery_bid_list .search-wrapper .datepicker-search .input-select .date-wrap button { position: absolute; right:4px; top:6px; border:0; background:none; } 
+
+#dms_delivery_bid_list .search { text-align: right; } 
+#dms_delivery_bid_list .search input[name=search] { width:200px; height:40px; font-size:11pt; padding: 10px; border-radius: 0;} 
+#dms_delivery_bid_list .search input[type=button] { height:40px; border-radius:0; background:#292c3b; border:0; color: #FFF; } 
+
+#dms_delivery_bid_list .middle ul { overflow:hidden; margin:5px 0; } 
+#dms_delivery_bid_list .middle ul li { border:1px solid #ddd; background:#FFF; margin:5px 0; padding:15px 30px; cursor: pointer;} 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left { width:80%; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper.est-elem .left { width:90%; display: flex; align-items: center; justify-content: space-between;} 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .incoterms-info {display: flex;align-items: center;}
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .v_num { color:#888; font-size: 11pt; font-weight: bold; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .title { text-align:left; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .bl-no { color: #707070; font-size: 11pt; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .status-sticker.ing { width: 50px; border-radius: 50px; background: #EF746F; text-align: center; font-size: 10pt; color: #fff; padding: 2px; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .status-sticker.end { width: 50px; border-radius: 50px; background: #5A5A5A; text-align: center; font-size: 10pt; color: #fff; padding: 2px; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .status {margin-bottom: 3px; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper { display: flex; align-items: center; justify-content: space-between; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .title div:first-child { font-size: 24pt; font-weight: bold; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .title div:first-child > span { font-size: 16pt; color:#888; font-weight: 300; margin-left: 10px; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .incoterms { font-size: 20pt; font-weight: bold; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .regDate { font-size: 16pt; color:#707070; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .type-wrapper {margin-right:10px; display: flex; justify-content: center; align-items: center;}
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .type-wrapper .basic-type {margin-bottom:5px!important;}
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right { text-align: right; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper.est-elem .right { text-align: center; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper.est-elem .right .status {width:100px;}
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper.est-elem .right .status .cancel {color: #007bff;}
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .status span { color:#ff7753; font-size: 16pt; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .date {color:#707070; }
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper button { position: relative; width: 100px; display: block; border: 1px solid #ddd; background: #fff; border-radius: 5px; height: 25px; font-size: 10pt; color: #888; margin:0 auto; margin-bottom:3px; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper .count {     
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    background: #ff7753;
+    color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    min-width: 19px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 8pt;
+    padding: 1px;
+    z-index: 1;
+}
+
+#dms_delivery_bid_list .bottom .add-btn { background:#ff7753; color:#fff; border-radius:5px; min-width:160px; height:40px; display:block; font-size:14pt; text-align:center; padding:8px; box-sizing:border-box; float:right; } 
+#dms_delivery_bid_list .top .add-btn { background:#ff7753; color:#fff; border-radius:5px; min-width:160px; height:40px; display:block; font-size:14pt; text-align:center; padding:8px; box-sizing:border-box; float:right; } 
+#dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper button.rating-btn {background:#FFFC98;}
+
+@media (min-width: 1180px) {
+    #dms_delivery_bid_list .search-wrapper .datepicker-search input { width:120px; } 
+}
+
+@media ( min-width :780px) and ( max-width :1180px){
+    #dms_delivery_bid_list .search-wrapper { display:block; } 
+
+    #dms_delivery_bid_list .search-wrapper .btn-search { margin-bottom:10px; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search { margin-left:0; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search input { width:150px; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search select { width:100px; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search .search-btn { font-size: 12pt; width: 80px; } 
+
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper { display: flex; align-items: center; justify-content: space-between; } 
+}
+
+@media ( max-width :780px){
+    #dms_delivery_bid_list .search-wrapper { display:block; } 
+
+    #dms_delivery_bid_list .search-wrapper .btn-search { display:block; margin-bottom:1%; } 
+    #dms_delivery_bid_list .search-wrapper .btn-search .search-months { margin-bottom:1%; margin-right: 0; } 
+
+    #dms_delivery_bid_list .search-wrapper .datepicker-search { width:100%; margin-left: 0; display:block; text-align:left; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search .input-select { font-size:12pt; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search .date-wrap { flex:1; font-size:8pt; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search select { width:100px; } 
+    #dms_delivery_bid_list .search-wrapper .datepicker-search .search-btn { display:block; width:100%; margin-left:0; margin-top:1%; } 
+
+    #dms_delivery_bid_list .search { text-align:right; display:flex; align-items:center; justify-content:space-between; } 
+    #dms_delivery_bid_list .search input[name=search] { width:80%; } 
+    #dms_delivery_bid_list .search input[type=button] { width:20%; } 
+
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper { display: block; align-items: center; justify-content: space-between; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left { width:100%;} 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper.est-elem .left { width:100%; display: flex;flex-direction: column;align-items: flex-start;} 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .title div:first-child { font-size: 16pt; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .title div:first-child > span { font-size: 12pt; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .incoterms-info {display: flex;flex-direction: column; align-items: flex-start;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .incoterms { font-size: 12pt; width: 100%;} 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .value-wrapper {width: 100%;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .incoterms span:first-child {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .left .regDate { font-size: 10pt; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .type-wrapper {display: flex;align-items: center;text-align: left!important; margin-top: 1rem; width: 100%;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .type-wrapper .basic-type {margin-bottom:0!important;margin-right: 10px!important;font-size: 12pt;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .type-wrapper .delivery-type {font-size: 12pt;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .type-wrapper .type-box { width: 100%; display: flex; align-items: center; justify-content: space-between;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .right { text-align: left; margin-left:0;} 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper.est-elem .right .status {text-align: left;}
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .status span { font-size: 12pt; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper { display:flex; align-items:center; justify-content:space-between; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper button { width: 100%; display: inline-block; height: 30px; margin-right:1%; } 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper button:last-child {margin-right: 0;}
+
+    #dms_delivery_bid_list .bottom .add-btn { width:100%; min-width: 0;} 
+    #dms_delivery_bid_list .top .add-btn { width:100%; min-width: 0;} 
+}
+
+@media (max-width: 375px) {
+    #dms_delivery_bid_list .middle ul li { padding:15px;} 
+    #dms_delivery_bid_list .middle ul li .list-elem-wrapper .right .button-wrapper { display:flex; flex-direction: column; align-items:center; justify-content:space-between; } 
+
+}

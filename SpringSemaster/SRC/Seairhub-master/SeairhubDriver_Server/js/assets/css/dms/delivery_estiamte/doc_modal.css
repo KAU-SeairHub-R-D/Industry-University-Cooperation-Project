@@ -1,0 +1,4 @@
+#commonModal .modal-body .body-content {margin-bottom:5px;}
+#commonModal .modal-body .cost-wrapper {border: 1px solid #929292;padding: 10px;box-sizing: border-box;font-size: 14pt;}
+#commonModal .modal-body .cost-wrapper .cost {font-size: 16pt;color:#ff7753}
+#commonModal .modal-body .cost-wrapper .date {display:block;font-size: 12pt;}

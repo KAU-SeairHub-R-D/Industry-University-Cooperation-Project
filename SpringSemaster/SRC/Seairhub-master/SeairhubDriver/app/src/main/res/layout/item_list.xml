@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="16dp"
+    android:background="@drawable/bg_round_line_base">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="2022\n05/13"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginVertical="16dp">
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="목적지 정보"
+            android:textSize="28sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="화주 정보"
+            android:textSize="26sp"
+            android:textColor="@color/gray"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="상차\n대기"
+        android:textSize="28sp"
+        android:textColor="@color/black"/>
+</LinearLayout>

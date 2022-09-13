@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177904829-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177904829-1');
+    </script>
+        <head>
+    <title>(주)씨에어허브</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, crome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <link rel="shortcut icon" href="/assets/image/icon/favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/dms/global.css?v=7" /> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/dms/default.css?v=5" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/dms/button.css?v=210514" />
+    <link rel="stylesheet" href="/assets/css/index/style.css">
+    <link rel="stylesheet" href="/assets/css/lib/jquery-ui-1.12.1.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177904829-1"></script>
+
+    <!-- material -->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- summernote -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/ios.css?v=210817a">
+    <script src="https://cdn.polyfill.io/v3/polyfill.min.js" async defer></script>
+<!-- bootstrap 4 -->
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<!-- <script src="/assets/js/lib/jquery-3.6.0.min.js"></script> -->
+<script src="/assets/js/lib/jquery-ui-1.12.1.min.js"></script>
+ 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+<!-- summernote -->
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
+ 
+<!-- timepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+ 
+<!-- swiper js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ 
+<script src="/assets/js/lib/jquery.loading.min.js"></script>
+<script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+ 
+<script src="/assets/js/lib/jquery.counterup.min.js"></script>
+<script src="/assets/js/lib/waypoints.min.js"></script>
+ 
+<script src="/assets/js/common.js?v=28"></script>
+<script>
+        var messages = {"server_error":"서버 에러 발생 다시 시도해주세요.","invalid_email":"이메일 형식이 아닙니다.","invalid_url":"URL 형식이 잘못되었습니다.","invalid_company_reg":"사업자등록번호를 형식에 맞게 하이픈(-) 포함하여 입력해 주십시오.","required":"{0}을\/를 입력해주세요.","required_file":"{0}을\/를 선택해주세요.","length_min_max":"{0}은\/는 글자수 {1}~{2}자 까지 가능합니다.","length_min":"{0}은\/는 글자수 {1}자 이상 입력해주세요.","length_max":"{0}은\/는 글자수 {1}자 이하로 입력해주세요.","agree":"{0}에 동의해주세요.","est_title":"외 {0}건","empty_content":"모든 항목을 입력해주세요","empty_sign":"도장 혹은 사인을 해주세요","complete":"완료되었습니다","warning_text":"주의: 결제 전 외부 연락처 공개\/요청 시 직거래 유도 행위로<br>간주되어 사이트 이용이 제한될 수 있습니다.","question_delete":"삭제하시겠습니까?","min_length":"{0}자 이상 입력해주세요."};
+    var userLanguage = "ko";
+    var loginUserData = {"name":"한국항공대학교 학생","profile_path":"/assets/image/default_user.png"};
+</script>
+<script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xxedbd15512a7043129a3059cd74430de3"></script>
+<script src = "location.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $.ajax({
+                    method: "POST",
+                    url: "https://localhost:443/getTable",
+                    success: function(response){
+                        var bl_num = response.BL;
+                        var container_num = response.container;
+                        console.log(bl_num);
+                    },
+                    error: function(response){
+                        alert(response.error);
+                    }
+                });
+
+                setCookie("No", String(<%= num %>), 1);
+                alert(getCookie("No"));
+        </script></head>
+	</head>
+	<body>
+		<div id="wrap" class="">
+			<div id="header">
+		<div class="top">
+			<a id="btnMenu" href="" onclick="$('#body-left').show('slide', { direction: 'left' }, 500);return false;">
+				<img src="/assets/image/button/menu.png" alt="">
+			</a>
+		</div>
+	
+		<div class="left">
+			<a href="/">
+				<img src="/assets/image/nav/ci.png" alt="">
+			</a>
+			<span>E-SERVICE</span>
+		</div>
+	
+		<div class="center">
+			<a href="/">
+				<img src="/assets/image/nav/ci2.png" alt="">
+			</a>
+		</div>
+	
+		<div class="right">
+			<span>
+				허진석		</span>
+			<a href="/user" class="myinfo">
+				내정보		</a>
+	
+			<div class="noti-wrapper" id="notiwrapper">
+		<div class="noti-cercle">3</div>
+		<div id="headingNoti">
+			<i class="ri-notification-3-line noti-icon" alt="" data-toggle="collapse" data-target="#collapseNoti" aria-expanded="false" aria-controls="collapseNoti"></i>
+		</div>
+		<div class="noti-text position-absolute collapse" id="collapseNoti" aria-labelledby="headingNoti" data-parent="#notiwrapper">
+			<div class="noti-list">
+			</div>
+			<div class="noti-page" style="margin-top: 1rem;">
+				<style>
+		.pagination-root .pagination{ justify-content: center; }
+		.pagination-root button { font-size: 10pt; }
+	</style>
+	
+	<nav class="pagination-root" aria-label="Page navigation">
+		<ul class="pagination">
+	
+			
+			<li class="page-item">
+				<button class="page-link btn-page-prev" type="button" aria-label="Previous">
+					<span aria-hidden="true">&lt;</span>
+					<span class="sr-only">Previous</span>
+				</button>
+			</li>
+	
+			<div class="page-wrapper" style="display: flex;"></div>
+	
+			<li class="page-item">
+				<button class="page-link btn-page-next" type="button" aria-label="Next">
+					<span aria-hidden="true">&gt;</span>
+					<span class="sr-only">Next</span>
+				</button>
+			</li>
+				</ul>
+	</nav>        </div>
+		</div>
+	</div>
+	<input type="hidden" name="hereg_seq_token" value="4acf5c068c7f9f19f7b59774222defdb" />
+	<script id="tmp-notification" type="text/html">
+		<{{root_tag}} {{root_attr}} class="noti-content w-100 {{class}}">
+			<span class="content-text">{{text}}</span>
+			<span class="noto-sb">{{time}}</span>
+		</{{root_tag}}>
+	</script>
+	<script id="tmp-notification-page" type="text/html">
+		<li class="page-item {{class}}">
+		<button type="button" class="page-link" onclick="{{onclick}}">{{page}}</button>
+	</li></script>
+	<script src="/assets/js/item/notification.js?v=2"></script>
+			<a href="#" onclick="logout()">
+				로그아웃		</a>
+		</div>
+	</div>
+			<div id="body" style="">
+							<link rel="stylesheet" href="/assets/css/dms/list.css?v=5">
+	<link rel="stylesheet" href="/assets/css/dms/invoice_modal.css?v=1">
+	<link rel="stylesheet" href="/assets/css/dms/delivery_estimate/doc_modal.css">
+	<link rel="stylesheet" href="/assets/css/lib/rating_modal.css?v=3">
+		<div id="body-left">
+			<div class="top">
+				<div><a href="" onclick="$('#body-left').hide('slide', { direction: 'left' }, 500);return false;"></a></div>
+				<img src="/assets/image/default_user.png" alt="">
+				<div class="business-name">한국항공대학교 학생</div>
+				<a class="logout-btn" href="#" onclick="logout()">로그아웃</a>
+			</div>
+			<div class="leftMenu">
+				<ul>
+										<li>
+							<a class="btn btn-link p-0" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span class="color-main">거래</span><i class="ri-arrow-down-s-line"></i></a>
+							<div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordion">
+								<a href="/dms/list">모두보기</a>
+								<a href="/dms/list/est/req">견적요청</a>
+								<a href="/dms/list/est/trd">거래중</a>
+								<a href="/dms/list/est/del_all">배송조회</a>
+								<a href="/dms/list/est/com">화물이력조회</a>
+								<a href="/dms/list/est/cancel">취소완료</a>
+																					</div>
+						</li>
+						<li>
+							<a class="btn btn-link p-0 color-main" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="color-main">결제</span><i class="ri-arrow-down-s-line"></i></a>
+							<div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordion">
+								<a href="/dms/list/invoice">인보이스</a>
+								<a href="/dms/list/invoice/pay">결제내역</a>
+							</div>
+						</li>
+									<li>
+						<a class="btn btn-link p-0 color-main" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span class="color-main">전자계약</span><i class="ri-arrow-down-s-line"></i></a>
+						<div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#accordion">
+							<a href="/dms/list/contract">모두보기</a>
+							<a href="/dms/list/contract/writing">작성 중</a>
+							<a href="/dms/list/contract/sign_waiting">서명대기</a>
+							<a href="/dms/list/contract/sign_complete">양자서명완료</a>
+						</div>
+					</li>
+					<!-- <li>
+					<a href="#"><span>글로벌 상품광고</span><i class="ri-arrow-down-s-line"></i></a>
+					<div>
+						<a href="">결제내역</a>
+						<a href="">등록상품</a>
+					</div>
+				</li> -->
+				</ul>
+			</div>
+		</div>
+		<div id = "body-content">
+			<!-- <input type="text" class="text_custom" id="fullAddr" name = "fullAddr" value="">
+			<button id="btn_select">적용하기</button><br>
+	
+			화물 경로안내
+			<div class="ft_select">
+							<select id="selectLevel">
+								<option value="0" selected="selected">교통최적+추천</option>
+								<option value="1">교통최적+무료우선</option>
+								<option value="2">교통최적+최소시간</option>
+								<option value="3">교통최적+초보</option>
+								<option value="4">교통최적+고속도로우선</option>
+								<option value="10">최단거리+유/무료</option>
+								<option value="12">이륜차도로우선</option>
+							</select>
+							<button id="path">적용하기</button>
+			</div> -->
+			<div class="body-inner-wrapper" id="layout">
+				<div id="left_content">
+					<div id="ship_info">
+						<div id="no_">
+							<span>NO.1212</span>
+						</div>
+						<div id="bl_">
+							<span>B/L No.</span>
+							<span>SHU</span>
+						</div>
+						<div id="container_">
+							<span>CONTAINER No.</span>
+							<span>XXXX</span>
+						</div>
+					</div>
+					<div id="driver_info">
+						<div>
+							기사 정보
+						</div>
+						<img src="/assets/image/default_user.png" alt="">
+						<div id=name_>
+							<span>성함: </span>
+							<span>XXX</span>
+						</div>
+						<div id=car_num_>
+							<span>차량번호: </span>
+							<span>27사</span>
+						</div>
+						<div id=phone_num_>
+							<span>휴대전화: </span>
+							<span>010-1234-5678</span>
+						</div>  
+					</div>
+				</div>
+
+	    <p id = "endpoint" display = "none"></p>
+		<p id="distanceProgress"></p>
+
+        	<!-- 지도 출력 부분 -->
+			<div id = "map_div"></div>
+
+				<div id="right_content">
+                <script type="text/javascript">
+                    $.ajax({
+                            method: "POST",
+                            url: "https://localhost:443/getDelivery",
+                            success: function(response){
+                                var template = 
+                                    `<div id="start_loc">
+										<b>출발 : </b>
+                                        <b>${response.start}</b>
+                                    </div>
+                                    <div id="last_loc">
+										<b>도착 : </b>
+                                        <b>${response.dist}</b>
+                                    </div>
+									<div>
+                                        <span>도착 예정 : </span>
+                                        <span id="result"></span>
+                                    </div>
+									`;
+                                    $('#right_content').append(template)
+                            },
+                            error: function(response){
+                                alert(response.error);
+                            }
+                        });
+                </script>
+            </div>
+		</div>
+	</body>
+</html>

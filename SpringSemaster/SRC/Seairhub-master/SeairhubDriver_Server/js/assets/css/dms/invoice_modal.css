@@ -1,0 +1,6 @@
+#invoiceModal .modal-body button,
+#invoiceModal .modal-body label {display:flex; align-items: center; justify-content: center; cursor: pointer; min-width: 100px;background: #ff7753;border: 0;color: #FFF;border-radius: 5px !important;height: 30px;float: right;margin-bottom:10px!important;}
+#invoiceModal .modal-body .btn-show-est{float: left;}
+#invoiceModal .modal-body .file-wrapper {clear: both;border:1px solid #7d7d7d;margin-bottom:5px;padding: 5px;box-sizing: border-box;}
+#invoiceModal .modal-body .cost-wrapper {display: flex;align-items: center;justify-content: space-between;border:1px solid #7d7d7d;width:100%;padding: 5px;box-sizing: border-box;color: #7d7d7d;}
+#invoiceModal .modal-body .cost-wrapper input {border:0;outline: none;margin: 0;width:80%;}

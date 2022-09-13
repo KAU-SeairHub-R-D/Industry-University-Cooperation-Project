@@ -1,0 +1,46 @@
+#layout{
+    #left_content {
+        float: left;
+        width: 300px;
+        #ship_info {
+            border-radius: 10px;
+            clear: both;
+            border: 2px solid gray;
+            margin: 10px;
+            
+            div{
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 30px;
+                
+            }
+            #bl_{
+                border-top:1px solid gray;
+                border-bottom:1px solid gray;
+            }
+        }
+        #driver_info {
+            border-radius: 10px;
+            clear: both;
+            border: 2px solid gray;
+            margin: 10px;
+            div{
+                height: auto;
+                display: flex;
+                padding: 10px 30px;
+            }
+        }
+        
+    }
+    #map_div{
+        float: left;
+        margin-left: 3%;
+    }
+    #right_content{
+        float: left;
+        margin-left: 3%;
+        div{
+            height: 100px;
+        }
+    }
+}
